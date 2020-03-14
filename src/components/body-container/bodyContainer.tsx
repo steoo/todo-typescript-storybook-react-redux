@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Container } from './style';
-import { TodosContainer } from '../todos/todos';
+import  TodosContainer from '../todos/todos.container';
 import { Header } from '../header/header';
 
 
@@ -10,5 +10,5 @@ export const BodyContainer = () => {
             <Header></Header>
             <TodosContainer></TodosContainer>
         </Container>
-    )
-}
+    );
+};

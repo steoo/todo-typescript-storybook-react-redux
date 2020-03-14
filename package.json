@@ -11,6 +11,7 @@
     "@types/node": "^12.12.29",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
+    "@types/react-redux": "^7.1.7",
     "@types/styled-components": "^5.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -31,9 +32,22 @@
   "eslintConfig": {
     "extends": "react-app",
     "rules": {
-      "quotes": ["error", "single"],
-      "array-bracket-spacing": ["error", "always"],
-      "object-curly-spacing": ["error", "always"]
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "array-bracket-spacing": [
+        "error",
+        "always"
+      ],
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
     }
   },
   "browserslist": {
